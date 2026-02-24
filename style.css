@@ -1,0 +1,409 @@
+body {
+    overflow-x: hidden;
+    background-color: #000000;
+}
+
+#sec1-home {
+
+}
+
+#sec1-home .logo-navbar a {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none
+}
+
+#sec1-home .logo-navbar img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#sec1-home .navbar ul {
+    display: flex;
+    margin: auto;
+}
+
+#sec1-home .navbar li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+#sec1-home .navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#sec2-home {
+    background-image: linear-gradient(360deg, #000000 5%, rgba(255, 255, 255, 0) 39%), url(img/img-homepetroleo.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height: 104vh;
+    width: 100%;
+    margin-top: -80px;
+}
+
+#sec2-home .banner {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#sec2-home .banner h1,
+#sec2-home .banner span {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sec2-home .banner-text:after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+#sec3-home {
+    padding: 0 0 50px 0;
+    background-color: #000;
+}
+
+#sec3-home .bodycard {
+    text-align: center;
+    background: rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 10px 35px;
+    margin: 0px 33px;
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+}
+
+#sec3-home .link-pre {
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+}
+
+#sec3-home .bodycard:hover {
+    text-align: center;
+    background: #000;
+    border-radius: 4px;
+    padding: 10px 35px;
+    margin: 0px 33px;
+    color: #ffffff;
+    transition-duration: 0.5s;
+    transform: scale(1.2, 1.2);
+}
+
+#sec3-home .link-pre:hover {
+    color: #fff;
+}
+
+#sec3-home .bodycard i {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+#sec3-home .bodycard .bodycard-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#sec4-home {
+    background: linear-gradient(0deg, #c2faf1 0%, #365b77 65%, #000 100%);
+    padding: 50px 0px;
+}
+
+#sec4-home h1 {
+    background-position: center;
+    width: fit-content;
+    font-size: 44px;
+    padding: 55px 155px;
+    color: #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+#sec4-home .title-pre {
+    display: flex;
+    justify-content: center;
+}
+
+#sec4-home .textopresal p {
+    font-size: 18px;
+    text-align: right;
+    padding: 100px 0 0 0;
+    color: #fff;
+}
+
+#sec4-home .textopresal {
+    margin-bottom: 50px;
+}
+
+#sec4-home .saibamaispresal a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#sec4-home .saibamaispresal {
+    background: #4259ab;
+    width: fit-content;
+    padding: 5px 10px;
+    float: right;
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+
+#sec5-home {
+    /*imagem do quiz*/
+    background-image: url(img/homem-cabeca-dino1.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height: 115vh;
+    width: 100%;
+}
+
+#sec5-home .bola-branca-quizz {
+    border-radius: 34px;
+    display: inline-block;
+    height: 215px;
+    width: 400px;
+    background-color: #02152b;
+    box-shadow: 25px 14px 14px -12px rgba(0, 0, 0, 0.3);
+    margin-top: 180px;
+    margin-left: -32rem;
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    justify-content: center;
+    left: 120%;
+}
+
+#sec5-home .inner {
+    display: block;
+    transform: translateZ(20px);
+    text-align: center;
+    margin: revert;
+}
+
+#sec5-home .inner h1 {
+    color: rgb(255, 255, 255);
+    font-size: 145px;
+    margin-top: 20px;
+    transition-duration: 1s;
+}
+
+#sec5-home .bola-branca-quizz a {
+    text-decoration: none;
+}
+
+#sec5-home .bola-branca-quizz h1:hover {
+    color: rgb(2, 175, 255);
+}
+
+#sec5-home .bola-branca-quizz:hover {
+    text-shadow: 0px 0px 30px #00a8be99;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#sec5-home .textoquiz {
+    font-size: 55px;
+    padding: 100px 0 0 0;
+    color: #02152b;
+    text-align: right;
+    float: right;
+    width: 370px;
+    margin-top: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 1000;
+}
+
+#sec6-home {
+    /*imagem do chat*/
+    background-image: url(img/zyro-image.png);
+    background-size: cover;
+    background-position: center bottom;
+    height: 135vh;
+    width: 100%;
+}
+
+#sec6-home .container {
+    position: relative;
+    top: 43%;
+    /* text-align: end; */
+    display: flex;
+    justify-content: end;
+}
+
+#sec6-home .container1 {
+    position: relative;
+    top: 10%;
+    /* text-align: end; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 55px;
+    padding: 100px 0 0 0;
+    color: #02152b;
+    width: 370px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 1000;
+}
+
+#sec6-home .box {
+    margin: -23rem -12rem 9rem 14rem;
+}
+
+#sec7-home {
+    text-align: center;
+}
+
+#sec7-home .content {
+    height: 520px;
+    width: 935px;
+    overflow: hidden;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+#sec7-home .navegaçao {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50px);
+    display: flex;
+}
+
+/* #sec7-home .bar {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+#sec7-home .bar:hover {
+    background-color: rgb(131, 131, 131);
+    transition: 0.6s;
+}
+
+#sec7-home input {
+    display: none;
+}
+
+#sec7-home .slides {
+    display: flex;
+    width: 300%;
+    height: 100%;
+}
+
+#sec7-home .slide {
+    width: 33.33333333%;
+    transition: .6s;
+}
+
+#sec7-home .slide div {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(0, 0, 0);
+}
+
+#sec7-home .texto p {
+    padding: 0px 25px 0 25px;
+    color: #fff;
+}
+
+#sec7-home #slide2:checked~.s1 {
+    margin-left: -33.33333333%;
+}
+
+#sec7-home #slide3:checked~.s1 {
+    margin-left: -66.66666666%;
+}
+
+#sec7-home .devs img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left: -0.33333333%;
+}
+
+#sec7-home .texto h1 {
+    color: #fff;
+}
+
+#sec6-home .container {
+    display: flex;
+    align-items: flex-start;
+}
+
+#sec6-home .container .textoquiz {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+}
+
+
+/* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
+
+@keyframes pisca {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.carregamento {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #000000;
+}
+
+.loading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: url('img/bone.png') no-repeat center center;
+    background-size: 10%;
+    animation: borda-loading 1s infinite linear;
+}
+
+@keyframes borda-loading {
+    0% {
+        scale: 1;
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}

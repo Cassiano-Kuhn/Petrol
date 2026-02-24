@@ -1,0 +1,73 @@
+// creating an array and passing the number, questions, options, and answers
+let questions = [
+    {
+      numb: 1,
+      category: "General Knowledge",
+      type: "multiple",
+      difficulty: "hard",
+      question: "Qual é o método utilizado na separação das frações do Petróleo?",
+      answer: "Destilação Fracionada",
+      options: [
+        "Destilação Simples",
+        "Destilação Fracionada",
+        "Liquefação Fracionada",
+        "Filtração",
+      ],
+    },
+    {
+      numb: 2,
+      category: "General Knowledge",
+      type: "multiple",
+      difficulty: "easy",
+      question: "A camada de rochas sedimentares com material fóssil localizada a 7000 metros do nível do mar é...",
+      answer: "Pré-Sal",
+      options: [
+        "Pré-Sal",
+        "Pós-Sal",
+        "Poço",
+        "Areia",
+      ],
+    },
+    {
+      numb: 3,
+      category: "General Knowledge",
+      type: "multiple",
+      difficulty: "easy",
+      question: "O petróleo é uma fonte de energia...",
+      answer: "Poluente e não Renovável",
+      options: [
+        "Limpa e Renovável",
+        "Limpa e Não Renovável",
+        "Poluente e Renovável",
+        "Poluente e não Renovável",
+      ],
+    },
+    {
+      numb: 4,
+      category: "General Knowledge",
+      type: "multiple",
+      difficulty: "easy",
+      question: "O petróleo é um combustível fóssil e não renovável. A sua origem está atrelada à?",
+      answer: "Decomposição de restos de animais e vegetais.",
+      options: [
+        "Formação de grandes aquíferos subterrâneos.",
+        "Decomposição de restos de animais e vegetais.",
+        "Evaporação de gases provenientes da erosão.",
+        "Condensação de grandes reservas de minerais.",
+      ],
+    },
+    {
+      numb: 5,
+      category: "General Knowledge",
+      type: "multiple",
+      difficulty: "medium",
+      question: "É utilizado como combustível de avião",
+      answer: "Querosene",
+      options: [
+        "Óleo Diesel",
+        "Querosene",
+        "Gasolina",
+        "GLP",
+      ],
+    },
+  ];

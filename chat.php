@@ -1,0 +1,66 @@
+<?php
+
+    if(isset($_POST['submit']))
+    {
+        print_r($_POST['nome']);
+        print_r('<br>');
+        print_r($_POST['e-mail']);
+        print_r($_POST['pergunta']);
+
+    }
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div>
+        <form action="chat.php" method="POST">
+            <div>
+                    <input type="text" name="nome" required>
+                    <label for="nome">nome completo</label>
+            </div>
+            <br>
+            <div>
+                <input type="text" name="e-mail" required>
+                <label for="nome">e-mail</label>
+            </div>
+            <div>
+                <input type="text" name="pergunta" required>
+                <label for="nome">escreva aqui</label>
+            </div>
+            <br>
+            <input type="submit" name="submit" id="submit">
+        </form>
+    </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
